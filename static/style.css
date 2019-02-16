@@ -1,0 +1,94 @@
+.body {
+    background-color: #feffef;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h4 p {
+    font-size: 14px;
+}
+
+.wiersz {
+    color: #1e347b;
+}
+.wartosc {
+    color: #2C2C2C;
+    padding: 5px 20px;
+}
+.created_div {
+    margin: 40px auto;
+    text-align: center;
+    border: 1px solid black;
+    max-width: 500px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.created_div:hover {
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.61);
+    transform: scale(1.02);
+}
+.wiersz_calosc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 53px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.button:hover {
+    opacity: 0.5;
+}
+
+h4 {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h4:hover {
+    color: #993300;
+}
+
+.dis_none {
+    display: none;
+}
+
+.button_poka {
+    margin-top: 40px;
+}
+label {
+    display: block;
+    padding: 15px;
+}
+
+form {
+    border: 1px solid #000000;
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+}
+
+.form_title {
+    text-align: center;
+}
+
+.del_button {
+    border: 1px solid red;
+    color: red;
+    padding: 9px;
+    margin: 0px;
+    cursor: pointer;
+}
+
